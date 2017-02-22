@@ -15,6 +15,7 @@ var argv = yargs.usage("$0 command args")
         alias: 'forever',
         describe: 'Starts the server as a daemon'
     })
+    .boolean('f')
     .command("stop", "Stops the Laravel Echo Server daemon.", cli.stop)
     .command("restart", "Restarts the Laravel Echo Server daemon.", cli.restart)
     .command("status", "returns the status of the Laravel Echo Server daemon.", cli.status)
