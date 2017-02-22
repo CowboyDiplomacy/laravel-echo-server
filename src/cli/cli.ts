@@ -154,6 +154,16 @@ export class Cli {
             echo.run(options);
         });
     }
+    
+    /**
+     * Stop the Laravel Echo Server
+     * 
+     * @param  {Object} yargs
+     * @return {void}
+     */
+    stop(yargs): void {
+        //
+    }
 
     /**
      * Create an app key for server.
