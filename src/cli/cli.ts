@@ -164,6 +164,26 @@ export class Cli {
     stop(yargs): void {
         //
     }
+    
+    /**
+     * Restarts the Laravel Echo Server
+     * 
+     * @param  {Object} yargs
+     * @return {void}
+     */
+    restart(yargs): void {
+        //
+    }
+    
+    /**
+     * Retrieves the status of the Laravel Echo Server
+     * 
+     * @param  {Object} yargs
+     * @return {void}
+     */
+    status(yargs): void {
+        //
+    }
 
     /**
      * Create an app key for server.

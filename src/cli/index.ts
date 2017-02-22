@@ -16,6 +16,8 @@ var argv = yargs.usage("$0 command args")
         describe: 'Starts the server in watch mode, terminating it when closed'
     })
     .command("stop", "Stops the Laravel Echo Server daemon.", cli.stop)
+    .command("restart", "Restarts the Laravel Echo Server daemon.", cli.restart)
+    .command("status", "returns the status of the Laravel Echo Server daemon.", cli.status)
     .demand(1, "Please provide a valid command.")
     .help("h")
     .alias("h", "help")
