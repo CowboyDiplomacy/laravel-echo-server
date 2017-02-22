@@ -2,6 +2,7 @@ let fs = require('fs');
 let colors = require("colors");
 let echo = require('./../../dist');
 let inquirer = require('inquirer');
+let forever = require('forever');
 const crypto = require('crypto');
 const CONFIG_FILE = process.cwd() + '/laravel-echo-server.json';
 
